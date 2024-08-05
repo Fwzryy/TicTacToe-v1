@@ -64,7 +64,10 @@ export default function Game() {
     setXIsNext(!xIsNext);
   }
 
-  
+  const moves = history.map((squares,move) => {
+    let description = ''
+  });
+
   return (
     <div className="game">
       <div className="game-board">
